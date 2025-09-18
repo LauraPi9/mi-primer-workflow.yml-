@@ -44,4 +44,4 @@ jobs:
         uses: "pascalgn/automerge-action@v0.16.4" # referenciando el automerge a un commit especifico
         env:
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
-          MERGE_LABELS: "automerge"
+          MERGE_LABELS: ""
