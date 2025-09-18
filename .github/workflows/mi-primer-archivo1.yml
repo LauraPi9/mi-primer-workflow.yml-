@@ -1,7 +1,7 @@
 name: Mi primer workflow
 on:
   push: # Evento que dispara el workflow
-    branches: [ master ] # branches especifica las ramas que activan el workflow
+    branches: [ main ] # branches especifica las ramas que activan el workflow
 
 
 jobs:
